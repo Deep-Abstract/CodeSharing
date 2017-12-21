@@ -1,4 +1,5 @@
 sms.send_single(phone_number: str, sign_name: str, template_code: str, template_param=None)
+sms.send_group(phone_numbers: List[str], sign_name: str, template_code: str, template_param=None)
 
 #例如
 sms.send_single('18934521234', Sign_Name, Template_Code, {'code': 12345})
